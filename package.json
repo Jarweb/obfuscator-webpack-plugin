@@ -1,0 +1,44 @@
+{
+  "name": "@jarzzzi/obfuscator-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack plugin obfuscator",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarweb/obfuscator-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jarweb/obfuscator-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Jarweb/obfuscator-webpack-plugin#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf build",
+    "demo": "webpack --config webpack.config.js -w",
+    "build": "npm run clean && babel src --out-dir=dist --presets=@babel/env"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "javascript obfuscator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^0.28.0",
+    "multi-stage-sourcemap": "^0.3.1",
+    "webpack-sources": "^1.4.3"
+  }
+}

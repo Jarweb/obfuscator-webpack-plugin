@@ -25,4 +25,4 @@ plugins: [
 
 ## links
 
-- [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
+- know more here to go [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
